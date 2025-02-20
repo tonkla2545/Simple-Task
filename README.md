@@ -56,15 +56,16 @@ Simple Task API is a task management system built using **Node.js**, **Express.j
 |--------|-------------|------------------|
 | POST   | `/register` | Register a new user |
 | POST   | `/login`    | Login and receive a JWT token |
+| POST   | `/logout`    | Logout |
 
 ### 2️⃣ Task Management
 | Method | Endpoint       | Description               |
 |--------|--------------|--------------------------|
-| GET    | `/tasks`      | Get all tasks            |
-| POST   | `/tasks`      | Create a new task        |
-| GET    | `/tasks/:id`  | Get a specific task by ID |
-| PUT    | `/tasks/:id`  | Update a task by ID      |
-| DELETE | `/tasks/:id`  | Delete a task by ID      |
+| GET    | `/allTask`      | Get all tasks            |
+| POST   | `/insertTask`      | Create a new task        |
+| GET    | `/:id`  | Get a specific task by ID |
+| PUT    | `/updateTask/:id`  | Update a task by ID      |
+| DELETE | `/deleteTask/:id`  | Delete a task by ID      |
 
 ### 3️⃣ Task Search
 | Method | Endpoint       | Description                    |
